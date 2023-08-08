@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools { go '1.4' }
+    tools { go }
 
     stages {
         stage('Build') {
